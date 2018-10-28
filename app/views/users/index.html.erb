@@ -40,7 +40,7 @@
 										<tr>
 											<th><%= attachment_image_tag user,:image, :fill, 30, 30,fallback: "no_image.jpg", format:'jpeg' %></th>
 											<th><%= user.name %></th>
-											<th><%= link_to "Show",user_path(user.id),class:"user_#{user.id} %></th>
+											<th><%= link_to "Show",user_path(user.id),class:"user_#{user.id}" %></th>
 										</tr>
 										<% end %>
 									</tbody>
